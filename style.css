@@ -1,0 +1,128 @@
+body{ 
+  background-color:#333;
+}
+#cabecalho { 
+  text-align:center; 
+  margin: auto; 
+  width: auto; 
+  height: auto; 
+  font-family: monospace; 
+  background: #444; 
+  color: #8AFF92; 
+  padding: 10px 10px; 
+  border-radius: 5px;
+}
+nav{ 
+  width:auto; 
+  background-color:#444; 
+  border-radius: 5px; 
+  padding:5px; 
+}
+nav ul{ 
+text-align:center; 
+list-style:none;
+display:flex;
+}
+nav li{ 
+  display:inline; 
+  flex:1; 
+}
+nav a{
+  color:white;
+  text-decoration:none;
+  font-family: monospace, corier new;
+}
+#sobre{
+  text-align:center;
+  font-weight:bold;
+  padding:10px;
+  border-radius:10px;
+  /*background:PaleTurquoise;
+  color:MidnightBlue;*/
+  background:#444;
+  color:PaleTurquoise;
+  font-family:monospace,Lucida Console;
+  
+}
+#sobre img{
+  height:auto;
+  width:60%;
+}
+#Projetos{
+  text-align:center;
+  font-weight:bold;
+  color:#afbfee;
+  background:#444;
+  font-family:monospace;
+  
+  
+}
+.Lista{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+  max-width:1000px;
+  
+  margin:0 auto;
+}
+.card{
+
+  border: 1px solid black;
+  height:135px;
+  font-size: 30px;
+  text-align: center;
+
+
+box-sizing: border-box;
+
+background:#afbfee;
+
+padding: 25px;
+border-radius: 10px;
+color:midnightblue;
+}
+
+@media (max-width: 1024px){
+    .Lista{grid-template-columns:repeat(2,1fr);}
+
+}
+@media(max-width:768px){
+    .Lista{grid-template-columns:repeat(1,1fr);}
+
+}
+#Countup{
+  text-align:center;
+  font-weight:bold;
+  padding:25px;
+  border-radius:10px;
+  /*background:#cfafee;
+  color:MidnightBlue;*/
+  background:#444;
+  color:#c2ec46;
+  font-family:monospace;
+}
+
+#contato{
+  text-align:center;
+  font-weight:bold;
+  padding:25px;
+  border-radius:10px;
+  /*background:#cfafee;
+  color:MidnightBlue;*/
+  color:rgb(101, 193, 214);
+  background:#444;
+  font-family:monospace;
+}
+#contato #nome{
+  font-family:cursive, brush script m7;
+}
+#contato textarea{
+  font-family:cursive, lucida handwriting;
+}
+#contato button{
+  
+  font-family:monospace;
+  font-weight: bold;
+  background:PaleGreen;
+}
